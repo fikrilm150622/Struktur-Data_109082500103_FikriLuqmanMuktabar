@@ -356,7 +356,7 @@ contoh :
 ### Penjelasan Unguided 2
 Program ini digunakan untuk menerima masukan angka dari 0 sampai 100 dan mengubahnya menjadi bentuk tulisan. #include <iostream> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cin dan cout. int angka; digunakan untuk menyimpan angka yang dimasukkan. string satuan[] digunakan untuk menyimpan nama angka dari nol sampai sembilan. cin >> angka; digunakan untuk menerima input angka. Selanjutnya, if dan else if digunakan untuk menentukan bentuk tulisan berdasarkan nilai angka. satuan[angka] digunakan untuk menampilkan angka satuan, sedangkan angka / 10 menentukan angka puluhan dan angka % 10 menentukan angka satuannya. Terakhir, cout digunakan untuk menampilkan hasil dalam bentuk tulisan dan return 0; digunakan untuk mengakhiri program.
 
-### 3. Buatlah program yang dapat memberikan input dan output sbb. Program menerima input sebuah angka dan menghasilkan pola perkalian menurun sesuai angka tersebut.
+### 3. Buatlah program yang dapat memberikan input dan output sebagai berikut. Program menerima input sebuah angka dan menghasilkan pola perkalian menurun sesuai angka tersebut.
 
 ```C++
 #include <iostream>
