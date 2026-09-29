@@ -3,8 +3,7 @@ using namespace std;
 
 int main() {
     int angka;
-    string satuan[] = {"Nol", "Satu", "Dua", "Tiga", "Empat", "Lima",
-                       "Enam", "Tujuh", "Delapan", "Sembilan"};
+    string satuan[] = {"Nol", "Satu", "Dua", "Tiga", "Empat", "Lima", "Enam", "Tujuh", "Delapan", "Sembilan"};
     cout << "Masukkan angka (0-100) = ";
     cin >> angka;
     if (angka < 10)
