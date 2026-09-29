@@ -30,7 +30,7 @@ Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk str
 
 ## Guided
 
-### 1. ...
+### 1.
 
 ```C++
 #include <iostream>
@@ -47,11 +47,9 @@ return 0;
 ### Penjelasan Singkat Guided 1
 Program ini digunakan untuk menghitung nilai Z berdasarkan rumus (X + Y) / (Y + W). #include <iostream> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cout. Pada int main(), program mulai dijalankan. int W, X, Y; digunakan untuk mendeklarasikan variabel W, X, dan Y bertipe integer, sedangkan float Z; digunakan untuk menyimpan hasil perhitungan. X = 7, Y = 3, dan W = 1 digunakan untuk memberikan nilai awal pada variabel. Selanjutnya, Z = (X + Y)/(Y + W); digunakan untuk menghitung nilai Z. Terakhir, cout << "Nilai z = " << Z << endl; digunakan untuk menampilkan hasil perhitungan, sedangkan return 0; digunakan untuk mengakhiri program.
 
-### 2. ...
+### 2. 
 
 ```C++
-source code guided 2
-```
 #include <iostream>
 using namespace std;
 int main(){
@@ -62,15 +60,14 @@ cout<< "Nilai r= "<<r<<endl;
 cout<< "Nilai s= "<<s<<endl;
 return 0;
 }
+```
 
-penjelasan singkat guided 2
+### Penjelasan Singkat Guided 2
 Program ini digunakan untuk menghitung nilai r dan s dengan menggunakan operator increment (++). #include <iostream> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cout. Pada int main(), program mulai dijalankan. int r = 10; digunakan untuk mendeklarasikan variabel r dengan nilai awal 10, sedangkan int s; digunakan untuk mendeklarasikan variabel s. Pada s = 10 + ++r;, operator ++r merupakan pre-increment, sehingga nilai r bertambah terlebih dahulu dari 10 menjadi 11, kemudian digunakan dalam perhitungan. Jadi, nilai s menjadi 10 + 11 = 21. Selanjutnya, cout digunakan untuk menampilkan nilai r dan s. Hasil akhirnya adalah r = 11 dan s = 21, kemudian return 0; digunakan untuk mengakhiri program.
 
-### 3. ...
+### 3. 
 
 ```C++
-source code guided 3
-```
 #include <iostream>
 #include <stdlib.h>
 using namespace std;
@@ -82,15 +79,14 @@ cout<< "Nilai r= "<<r<<endl;
 cout<< "Nilai s= "<<s<<endl;
 return 0;
 }
+```
 
-penjelasan singkat guided 3
+### Penjelasan Singkat Guided 3
 Program ini digunakan untuk memahami penggunaan operator post-increment (r++). #include <iostream> dan #include <stdlib.h> digunakan untuk library program, sedangkan using namespace std; agar dapat menggunakan cout. Pada int main(), program mulai dijalankan. int r = 10; digunakan untuk memberikan nilai awal r sebesar 10, sedangkan int s; digunakan untuk mendeklarasikan variabel s. Pada s = 10 + r++;, operator r++ merupakan post-increment, sehingga nilai r yang digunakan dalam perhitungan masih 10, kemudian nilai r bertambah menjadi 11 setelah perhitungan. Jadi, nilai s = 10 + 10 = 20 dan nilai r menjadi 11. Selanjutnya, cout digunakan untuk menampilkan nilai r dan s, sehingga hasil akhirnya adalah r = 11 dan s = 20. return 0; digunakan untuk mengakhiri program.
 
-### 4. ...
+### 4. 
 
 ```C++
-source code guided 4
-```
 #include <iostream>
 using namespace std;
 int main(){
@@ -102,15 +98,14 @@ if(total_pembelian >= 100000)
 diskon = 0.05*total_pembelian;
 cout<<"besar diskon = Rp" <<diskon;
 }
+```
 
-penjelasan singkat guided 4
+### Penjelasan Singkat Guided 4
 Program ini digunakan untuk menghitung besar diskon berdasarkan total pembelian. #include <iostream> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cin dan cout. Pada int main(), program mulai dijalankan. double total_pembelian, diskon; digunakan untuk mendeklarasikan variabel total pembelian dan diskon. cin >> total_pembelian; digunakan untuk menerima input total pembelian. diskon = 0; digunakan untuk memberikan nilai awal diskon sebesar 0. Kondisi if(total_pembelian >= 100000) digunakan untuk memeriksa apakah total pembelian minimal Rp100.000. Jika kondisi terpenuhi, diskon = 0.05 * total_pembelian; digunakan untuk menghitung diskon sebesar 5% dari total pembelian. Jika kondisi tidak terpenuhi, nilai diskon tetap 0 karena sebelumnya sudah diberikan nilai 0. Terakhir, cout digunakan untuk menampilkan besar diskon.
 
-### 5. ...
+### 5. 
 
 ```C++
-source code guided 5
-```
 #include <iostream>
 using namespace std;
 int main(){
@@ -124,15 +119,14 @@ else
 diskon = 0;
 cout<<"besar diskon = Rp" <<diskon;
 }
+```
 
-penjelasan singkat guided 5
+### Penjelasan Singkat Guided 5
 Program ini digunakan untuk menghitung besar diskon berdasarkan total pembelian. #include <iostream> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cin dan cout. Pada int main(), program mulai dijalankan. double total_pembelian, diskon; digunakan untuk mendeklarasikan variabel total pembelian dan diskon. cin >> total_pembelian; digunakan untuk menerima input total pembelian. diskon = 0; digunakan untuk memberikan nilai awal diskon sebesar 0. Kondisi if(total_pembelian >= 100000) digunakan untuk memeriksa apakah total pembelian minimal Rp100.000. Jika memenuhi kondisi, diskon = 0.05 * total_pembelian; digunakan untuk menghitung diskon sebesar 5%. Jika kondisi tidak terpenuhi, else membuat nilai diskon tetap 0. Terakhir, cout digunakan untuk menampilkan besar diskon dan return tidak dituliskan karena program akan selesai setelah main() berakhir.
 
-### 6. ...
+### 6. 
 
 ```C++
-source code guided 6
-```
 #include <iostream>
 using namespace std;
 int main(){
@@ -158,15 +152,14 @@ cout<<"Kode masukan salah!!!"<<endl;
 }
 return 0;
 }
+```
 
-penjelasan singkat guided 6
+### Penjelasan Singkat Guided 6
 Program ini digunakan untuk menentukan apakah suatu hari termasuk hari kerja atau hari libur berdasarkan kode hari yang dimasukkan. #include <iostream> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cin dan cout. int kode_hari; digunakan untuk menyimpan kode hari. puts() digunakan untuk menampilkan keterangan pilihan hari. cin >> kode_hari; digunakan untuk menerima kode hari dari pengguna. Selanjutnya, switch(kode_hari) digunakan untuk menentukan jenis hari berdasarkan kode yang dimasukkan. case 1 sampai case 5 menunjukkan hari Senin sampai Jumat dan menghasilkan output "Hari Kerja". case 6 dan case 7 menunjukkan Sabtu dan Minggu dan menghasilkan output "Hari Libur". break digunakan untuk menghentikan proses pada case yang sesuai. default digunakan jika kode yang dimasukkan tidak sesuai, sehingga menampilkan "Kode masukan salah!!!". return 0; digunakan untuk mengakhiri program.
 
-### 7. ...
+### 7.
 
 ```C++
-source code guided 7
-```
 #include <iostream>
 using namespace std;
 int main(){
@@ -178,15 +171,14 @@ cout<<"saya pintar\n";
 }
 return 0;
 }
+```
 
-penjelasan singkat guided 7
+### Penjelasan Singkat Guided 7
 Program ini digunakan untuk menampilkan tulisan "saya pintar" sebanyak jumlah perulangan yang dimasukkan oleh pengguna. #include <iostream> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cin dan cout. int jum; digunakan untuk menyimpan jumlah perulangan. cin >> jum; digunakan untuk menerima input jumlah perulangan. Selanjutnya, for(int i=0; i<jum; i++) digunakan untuk melakukan perulangan dengan nilai i mulai dari 0 sampai kurang dari jum. Setiap perulangan menjalankan cout<<"saya pintar\n"; untuk menampilkan tulisan "saya pintar" pada baris baru. return 0; digunakan untuk mengakhiri program.
 
-### 8. ...
+### 8. 
 
 ```C++
-source code guided 8
-```
 #include <iostream>
 using namespace std;
 int main(){
@@ -200,15 +192,14 @@ i++;
 }
 return 0;
 }
+```
 
-penjelasan singkat guided 8
+### Penjelasan Singkat Guided 8
 Program ini digunakan untuk menampilkan nomor baris sebanyak jumlah baris yang dimasukkan oleh pengguna. #include <iostream> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cin dan cout. int i=1; digunakan sebagai nilai awal perulangan, sedangkan int jum; digunakan untuk menyimpan jumlah baris. cin>>jum; digunakan untuk menerima input banyak baris. Selanjutnya, while(i<=jum) digunakan untuk melakukan perulangan selama nilai i masih kurang dari atau sama dengan jumlah baris. cout<<"baris ke-"<<i<<endl; digunakan untuk menampilkan nomor baris, kemudian i++; digunakan untuk menambah nilai i satu per satu agar perulangan berlanjut ke baris berikutnya. return 0; digunakan untuk mengakhiri program.
 
-### 9. ...
+### 9. 
 
 ```C++
-source code guided 9
-```
 #include <iostream>
 using namespace std;
 int main(){
@@ -221,15 +212,14 @@ i++;
 } while(i<jum);
 return 0;
 }
+```
 
-penjelasan singkat guided 9
+### Penjelasan Singkat Guided 9
 Program ini digunakan untuk menampilkan nomor baris berdasarkan jumlah yang dimasukkan oleh pengguna dengan menggunakan perulangan do-while. #include <iostream> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cin dan cout. int i = 1; digunakan sebagai nilai awal perulangan, sedangkan int jum; digunakan untuk menyimpan jumlah baris. cin >> jum; digunakan untuk menerima input jumlah baris. Selanjutnya, do digunakan untuk menjalankan perintah minimal satu kali. cout << "baris ke-" << (i+1) << endl; digunakan untuk menampilkan nomor baris, kemudian i++; digunakan untuk menambah nilai i satu. while(i<jum); digunakan untuk mengulang perintah selama nilai i masih kurang dari jum. return 0; digunakan untuk mengakhiri program.
 
-### 10. ...
+### 10. 
 
 ```C++
-source code guided 10
-```
 #include <iostream>
 #define MAX 5
 using namespace std;
@@ -257,14 +247,14 @@ cout<<"\n\nnilai="<<siswa[i].nilai;
 return 0;
 }
 
-penjelasan singkat guided 10
+```
+
+### Penjelasan Singkat Guided 10
 Program ini digunakan untuk menerima dan menampilkan data siswa berupa nama dan nilai sebanyak 5 data dengan menggunakan struct dan array. #include <iostream> digunakan untuk input dan output, sedangkan #define MAX 5 digunakan untuk menentukan jumlah data siswa sebanyak 5. using namespace std; agar dapat menggunakan cin dan cout. struct data digunakan untuk membuat struktur data yang memiliki nama bertipe karakter dan nilai bertipe integer. data siswa[MAX]; digunakan untuk membuat array siswa yang dapat menyimpan 5 data siswa. Perulangan for(i=0; i<MAX; i++) digunakan untuk memasukkan data siswa satu per satu. cin>>siswa[i].nama; digunakan untuk menerima nama siswa, sedangkan cin>>siswa[i].nilai; digunakan untuk menerima nilai siswa. Setelah semua data dimasukkan, perulangan for berikutnya digunakan untuk menampilkan kembali seluruh data siswa yang telah disimpan. siswa[i].nama digunakan untuk menampilkan nama dan siswa[i].nilai digunakan untuk menampilkan nilai. return 0; digunakan untuk mengakhiri program.
 
-### 11. ...
+### 11. 
 
 ```C++
-source code guided 11
-```
 #include <iostream>
 using namespace std;
 float ctof(float celcius);
@@ -279,8 +269,9 @@ return 0;
 float ctof(float celcius){
 return (celcius * 1.8) + 32;
 }
+```
 
-penjelasan singkat guided 11
+### Penjelasan Singkat Guided 11
 Program ini digunakan untuk mengubah suhu dari Celcius ke Fahrenheit dengan menggunakan fungsi ctof(). #include <iostream> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cin dan cout. float ctof(float celcius); digunakan sebagai deklarasi fungsi ctof yang menerima nilai Celcius dan menghasilkan nilai Fahrenheit. Pada int main(), float celcius, fahrenheit; digunakan untuk menyimpan nilai suhu. cin >> celcius; digunakan untuk menerima input suhu Celcius. Selanjutnya, fahrenheit = ctof(celcius); digunakan untuk memanggil fungsi ctof() dan menyimpan hasil konversi ke variabel fahrenheit. Fungsi ctof(float celcius) digunakan untuk menghitung konversi dengan rumus (celcius * 1.8) + 32. Hasil konversi kemudian ditampilkan menggunakan cout, sedangkan return 0; digunakan untuk mengakhiri program.
 
 
@@ -289,8 +280,6 @@ Program ini digunakan untuk mengubah suhu dari Celcius ke Fahrenheit dengan meng
 ### 1. Buatlah program yang menerima input-an dua buah bilangan betipe float, kemudian memberikan output-an hasil penjumlahan, pengurangan, perkalian, dan pembagian dari dua bilangan tersebut.
 
 ```C++
-source code unguided 1
-```
 #include <iostream>
 using namespace std;
 
@@ -306,6 +295,7 @@ int main() {
     cout << "Hasil pembagian = " << a / b << endl;
     return 0;
 }
+```
 
 ### Output Unguided 1 :
 
@@ -320,14 +310,12 @@ contoh :
 
 ![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
-penjelasan unguided 1
+### Penjelasan Unguided 1
 Program ini digunakan untuk menerima dua bilangan bertipe float, kemudian menghitung hasil penjumlahan, pengurangan, perkalian, dan pembagian. #include <iostream>> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cin dan cout. float a, b; digunakan untuk mendeklarasikan dua variabel bilangan. cin >> a; dan cin >> b; digunakan untuk menerima input. Selanjutnya, a + b, a - b, a * b, dan a / b digunakan untuk menghitung masing-masing operasi dan hasilnya ditampilkan dengan cout. return 0; digunakan untuk mengakhiri program.
 
 ### 2. Buatlah sebuah program yang menerima masukan angka dan mengeluarkan output nilai angka tersebut dalam bentuk tulisan. Angka yang akan di-input-kan user adalah bilangan bulat positif mulai dari 0 s.d 100.
 
 ```C++
-source code unguided 2
-```
 #include <iostream>
 using namespace std;
 
@@ -350,6 +338,7 @@ int main() {
         cout << "Seratus";
     return 0;
 }
+```
 
 ### Output Unguided 2 :
 
@@ -364,14 +353,12 @@ contoh :
 
 ![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
-penjelasan unguided 2
+### Penjelasan Unguided 2
 Program ini digunakan untuk menerima masukan angka dari 0 sampai 100 dan mengubahnya menjadi bentuk tulisan. #include <iostream> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cin dan cout. int angka; digunakan untuk menyimpan angka yang dimasukkan. string satuan[] digunakan untuk menyimpan nama angka dari nol sampai sembilan. cin >> angka; digunakan untuk menerima input angka. Selanjutnya, if dan else if digunakan untuk menentukan bentuk tulisan berdasarkan nilai angka. satuan[angka] digunakan untuk menampilkan angka satuan, sedangkan angka / 10 menentukan angka puluhan dan angka % 10 menentukan angka satuannya. Terakhir, cout digunakan untuk menampilkan hasil dalam bentuk tulisan dan return 0; digunakan untuk mengakhiri program.
 
 ### 3. Buatlah program yang dapat memberikan input dan output sbb. Program menerima input sebuah angka dan menghasilkan pola perkalian menurun sesuai angka tersebut.
 
 ```C++
-source code unguided 3
-```
 #include <iostream>
 using namespace std;
 
@@ -392,6 +379,7 @@ int main() {
     }
     return 0;
 }
+```
 
 ### Output Unguided 3 :
 
@@ -406,7 +394,7 @@ contoh :
 
 ![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
-penjelasan unguided 3
+### Penjelasan Unguided 3
 Program ini digunakan untuk menerima input sebuah angka dan menampilkan pola mirror sesuai dengan angka tersebut. #include <iostream> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cin dan cout. Pada int main(), program mulai dijalankan. int n; digunakan untuk menyimpan angka yang dimasukkan. cin >> n; digunakan untuk menerima input. Perulangan for (int i = n; i >= 1; i--) digunakan untuk membuat baris dari angka terbesar sampai 1. Perulangan pertama for digunakan untuk memberikan spasi agar pola bergeser ke kanan. Perulangan kedua menampilkan angka dari i sampai 1. cout << "* "; menampilkan tanda * sebagai bagian tengah pola. Perulangan berikutnya menampilkan angka dari 1 sampai i, sehingga membentuk pola mirror. cout << endl; digunakan untuk pindah ke baris berikutnya, sedangkan return 0; digunakan untuk mengakhiri program.
 
 ## Kesimpulan
