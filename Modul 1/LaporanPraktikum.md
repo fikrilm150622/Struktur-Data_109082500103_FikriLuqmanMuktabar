@@ -341,11 +341,11 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 2_1](Output/Unguided_2.1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 2_2](Output/Unguided_2.2.png)
 
 ### Penjelasan Unguided 2
 Program ini digunakan untuk menerima masukan angka dari 0 sampai 100 dan mengubahnya menjadi bentuk tulisan. #include <iostream> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cin dan cout. int angka; digunakan untuk menyimpan angka yang dimasukkan. string satuan[] digunakan untuk menyimpan nama angka dari nol sampai sembilan. cin >> angka; digunakan untuk menerima input angka. Selanjutnya, if dan else if digunakan untuk menentukan bentuk tulisan berdasarkan nilai angka. satuan[angka] digunakan untuk menampilkan angka satuan, sedangkan angka / 10 menentukan angka puluhan dan angka % 10 menentukan angka satuannya. Terakhir, cout digunakan untuk menampilkan hasil dalam bentuk tulisan dan return 0; digunakan untuk mengakhiri program.
@@ -379,14 +379,11 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
+![Screenshot Output Unguided 3_1](Output/Unguided_3.1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 3_2](Output/Unguided_3.2.png)
 
 ### Penjelasan Unguided 3
 Program ini digunakan untuk menerima input sebuah angka dan menampilkan pola mirror sesuai dengan angka tersebut. #include <iostream> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cin dan cout. Pada int main(), program mulai dijalankan. int n; digunakan untuk menyimpan angka yang dimasukkan. cin >> n; digunakan untuk menerima input. Perulangan for (int i = n; i >= 1; i--) digunakan untuk membuat baris dari angka terbesar sampai 1. Perulangan pertama for digunakan untuk memberikan spasi agar pola bergeser ke kanan. Perulangan kedua menampilkan angka dari i sampai 1. cout << "* "; menampilkan tanda * sebagai bagian tengah pola. Perulangan berikutnya menampilkan angka dari 1 sampai i, sehingga membentuk pola mirror. cout << endl; digunakan untuk pindah ke baris berikutnya, sedangkan return 0; digunakan untuk mengakhiri program.
