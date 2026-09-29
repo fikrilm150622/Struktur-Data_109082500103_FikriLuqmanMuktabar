@@ -4,29 +4,32 @@
 
 ## Dasar Teori
 
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+Bahasa C++ merupakan bahasa pemrograman yang dapat digunakan untuk membuat berbagai aplikasi dengan menerapkan konsep dasar pemrograman seperti variabel, tipe data, operator, percabangan, dan perulangan [1]. Code::Blocks merupakan salah satu platform yang dapat digunakan untuk menulis, menjalankan, dan mengembangkan program C++ [1].
+Pembelajaran pemrograman juga membutuhkan pemahaman terhadap konsep dan struktur dasar program agar dapat digunakan dalam menyelesaikan permasalahan secara terstruktur [2]. Oleh karena itu, pemahaman dasar bahasa C++ dan penggunaan Code::Blocks menjadi bagian penting dalam pembelajaran pemrograman.
 
-### A. ...<br/>
+### A. Pengenalan Code Blocks IDE<br/>
+Code::Blocks merupakan lingkungan pengembangan yang dapat digunakan untuk menulis, menjalankan, dan mengembangkan program C++. Penggunaan Code::Blocks membantu proses pembuatan program karena kode dapat ditulis dan dijalankan dalam satu lingkungan.
 
-...
+#### 1. Pengertian Code Blocks
+Code Blocks merupakan IDE yang digunakan untuk pengembangan program dan berorientasi pada bahasa C, C++, dan Fortran. Dalam praktikum ini Code Blocks digunakan sebagai lingkungan untuk menulis dan menjalankan program C++.
 
-#### 1. ...
+#### 2. Pembuatan dan Penggunaan Project
+Project baru pada Code Blocks dapat dibuat melalui menu File > New > Projects, kemudian memilih Console application. Setelah project dibuat, syntax program dapat ditulis pada editor. File C/C++ juga dapat dibuat melalui File > New > File, kemudian memilih C/C++ source.
 
-#### 2. ...
+#### 3. Build, Run, dan Error Message
+Program yang telah ditulis perlu dilakukan build sebelum dapat dijalankan. Build digunakan untuk membangun program, Run digunakan untuk menjalankan program, sedangkan Build and Run digunakan untuk membangun sekaligus menjalankan program. Code Blocks juga menampilkan error message apabila terdapat kesalahan dalam penulisan syntax.
 
-#### 3. ...
+### B. Dasar Pemrograman C++<br/>
+Dasar pemrograman C++ meliputi penggunaan variabel, tipe data, operator, input dan output, percabangan, serta perulangan. Konsep-konsep tersebut digunakan untuk menyusun program dan menyelesaikan suatu permasalahan secara terstruktur.
 
-### B. ...<br/>
+#### 1. Struktur Program, Identifier, dan Variabel
+Program C++ memiliki struktur yang terdiri dari library, deklarasi data, fungsi, dan program utama main(). Identifier digunakan sebagai nama variabel, konstanta, fungsi, atau objek lain. Penamaan identifier harus diawali huruf atau garis bawah, tidak boleh mengandung spasi, dan C++ bersifat case sensitive. Variabel digunakan untuk menyimpan nilai yang dapat berubah selama program berjalan.
 
-...
+#### 2. Tipe Data, Input/Output, dan Operator
+Tipe data dasar yang dibahas dalam modul meliputi char, int, long, float, dan double. cin digunakan untuk menerima input dari pengguna, sedangkan cout digunakan untuk menampilkan output. Operator digunakan untuk melakukan operasi pada data, antara lain operator aritmatika, assignment, logika, dan unary. Operator increment ++ digunakan untuk menambah nilai variabel sebesar satu, sedangkan decrement -- digunakan untuk mengurangi nilai variabel sebesar satu.
 
-#### 1. ...
-
-#### 2. ...
-
-#### 3. ...
+#### 3. Kondisional, Perulangan, dan Struktur
+Pernyataan kondisional digunakan untuk mengambil keputusan berdasarkan kondisi tertentu, yaitu if, if-else, dan switch. Perulangan digunakan untuk menjalankan bagian program secara berulang sehingga kode menjadi lebih efisien. Bentuk perulangan yang dibahas adalah for, while, dan do-while. Selain itu, struct digunakan untuk mengelompokkan beberapa variabel yang saling berkaitan dan dapat memiliki tipe data yang berbeda.
 
 ## Guided
 
@@ -394,6 +397,6 @@ Program ini digunakan untuk menerima input sebuah angka dan menampilkan pola mir
 
 ## Referensi
 
-[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN.
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
+[1] Azzam, H. N., & Ubaidillah, A. S. (2025). Studi Perancangan dan Implementasi Sistem Kasir Sederhana Menggunakan Bahasa Pemrograman C++ pada Platform Code::Blocks. Jurnal Aplikasi Teknologi dan Komputasi.
+<br>[2] Anggoro, H. B. (2013). Media Tutorial Pemrograman Bahasa C Berbasis Camtasia. Edu Elektrika Journal, 2(2).
 <br>...
