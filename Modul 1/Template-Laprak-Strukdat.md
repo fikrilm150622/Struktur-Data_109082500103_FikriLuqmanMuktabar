@@ -33,8 +33,6 @@ Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk str
 ### 1. ...
 
 ```C++
-source code guided 1
-```
 #include <iostream>
 using namespace std;
 int main(){
@@ -44,8 +42,9 @@ Z = (X + Y)/(Y + W);
 cout<< "Nilai z = " << Z << endl;
 return 0;
 }
+```
 
-penjelasan singkat guided 1
+### Penjelasan Singkat Guided 1
 Program ini digunakan untuk menghitung nilai Z berdasarkan rumus (X + Y) / (Y + W). #include <iostream> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cout. Pada int main(), program mulai dijalankan. int W, X, Y; digunakan untuk mendeklarasikan variabel W, X, dan Y bertipe integer, sedangkan float Z; digunakan untuk menyimpan hasil perhitungan. X = 7, Y = 3, dan W = 1 digunakan untuk memberikan nilai awal pada variabel. Selanjutnya, Z = (X + Y)/(Y + W); digunakan untuk menghitung nilai Z. Terakhir, cout << "Nilai z = " << Z << endl; digunakan untuk menampilkan hasil perhitungan, sedangkan return 0; digunakan untuk mengakhiri program.
 
 ### 2. ...
