@@ -308,7 +308,7 @@ int main() {
 
 ##### Output 2
 
-![Screenshot Output Unguided 1_2](Output/Unguided_1.2.png)
+![Screenshot Output Unguided 1_2]
 
 ### Penjelasan Unguided 1
 Program ini digunakan untuk menerima dua bilangan bertipe float, kemudian menghitung hasil penjumlahan, pengurangan, perkalian, dan pembagian. #include <iostream>> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cin dan cout. float a, b; digunakan untuk mendeklarasikan dua variabel bilangan. cin >> a; dan cin >> b; digunakan untuk menerima input. Selanjutnya, a + b, a - b, a * b, dan a / b digunakan untuk menghitung masing-masing operasi dan hasilnya ditampilkan dengan cout. return 0; digunakan untuk mengakhiri program.
