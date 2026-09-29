@@ -392,11 +392,10 @@ int main() {
 Program ini digunakan untuk menerima input sebuah angka dan menampilkan pola mirror sesuai dengan angka tersebut. #include <iostream> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cin dan cout. Pada int main(), program mulai dijalankan. int n; digunakan untuk menyimpan angka yang dimasukkan. cin >> n; digunakan untuk menerima input. Perulangan for (int i = n; i >= 1; i--) digunakan untuk membuat baris dari angka terbesar sampai 1. Perulangan pertama for digunakan untuk memberikan spasi agar pola bergeser ke kanan. Perulangan kedua menampilkan angka dari i sampai 1. cout << "* "; menampilkan tanda * sebagai bagian tengah pola. Perulangan berikutnya menampilkan angka dari 1 sampai i, sehingga membentuk pola mirror. cout << endl; digunakan untuk pindah ke baris berikutnya, sedangkan return 0; digunakan untuk mengakhiri program.
 
 ## Kesimpulan
-
-...
+Saya masih memahami dasar penggunaan Code::Blocks IDE dan konsep dasar pemrograman C++, seperti variabel, tipe data, operator, input/output, percabangan, perulangan, struct, dan fungsi. Saya juga sedang belajar menerapkan konsep tersebut melalui program guided dan unguided. Selain itu, saya masih dalam tahap menyesuaikan diri dengan bahasa C++ karena sebelumnya lebih sering menggunakan bahasa pemrograman Go (Golang), sehingga masih perlu berlatih dalam penggunaan syntax dan struktur program C++.
 
 ## Referensi
 
 [1] Azzam, H. N., & Ubaidillah, A. S. (2025). Studi Perancangan dan Implementasi Sistem Kasir Sederhana Menggunakan Bahasa Pemrograman C++ pada Platform Code::Blocks. Jurnal Aplikasi Teknologi dan Komputasi.
 <br>[2] Anggoro, H. B. (2013). Media Tutorial Pemrograman Bahasa C Berbasis Camtasia. Edu Elektrika Journal, 2(2).
-<br>...
+<br>
