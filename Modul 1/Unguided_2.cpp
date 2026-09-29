@@ -3,20 +3,25 @@ using namespace std;
 
 int main() {
     int angka;
-    string satuan[] = {"Nol", "Satu", "Dua", "Tiga", "Empat", "Lima", "Enam", "Tujuh", "Delapan", "Sembilan"};
-    cout << "Masukkan angka (0-100) = ";
+    string satuan[] = {"nol", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan"};
     cin >> angka;
     if (angka < 10)
         cout << satuan[angka];
     else if (angka == 10)
-        cout << "Sepuluh";
+        cout << "sepuluh";
     else if (angka == 11)
-        cout << "Sebelas";
+        cout << "sebelas";
     else if (angka < 20)
         cout << satuan[angka - 10] << " belas";
-    else if (angka < 100)
-        cout << satuan[angka / 10] << " puluh " << satuan[angka % 10];
+    else if (angka < 100) {
+        cout << satuan[angka / 10] << " puluh ";
+        if (angka % 10 != 0) {
+            string hasil = satuan[angka % 10];
+            hasil[0] = hasil[0] - 32;
+            cout << hasil;
+        }
+    }
     else
-        cout << "Seratus";
+        cout << "seratus";
     return 0;
 }
