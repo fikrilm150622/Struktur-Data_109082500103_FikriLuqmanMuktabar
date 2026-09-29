@@ -301,14 +301,11 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
+((https://github.com/fikrilm150622/Struktur-Data_109082500103_FikriLuqmanMuktabar/blob/main/Modul%201/Output/Unguided%201.1.png))
 
 ##### Output 2
 
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+(https://github.com/fikrilm150622/Struktur-Data_109082500103_FikriLuqmanMuktabar/blob/main/Modul%201/Output/Unguided%201.2.png)
 
 ### Penjelasan Unguided 1
 Program ini digunakan untuk menerima dua bilangan bertipe float, kemudian menghitung hasil penjumlahan, pengurangan, perkalian, dan pembagian. #include <iostream>> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cin dan cout. float a, b; digunakan untuk mendeklarasikan dua variabel bilangan. cin >> a; dan cin >> b; digunakan untuk menerima input. Selanjutnya, a + b, a - b, a * b, dan a / b digunakan untuk menghitung masing-masing operasi dan hasilnya ditampilkan dengan cout. return 0; digunakan untuk mengakhiri program.
