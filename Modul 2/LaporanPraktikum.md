@@ -298,18 +298,7 @@ int main() {
 ### Penjelasan Unguided 2
 Program ini digunakan untuk menukar nilai tiga variabel menggunakan Call by Pointer dan Call by Reference. #include <iostream> digunakan untuk input dan output, sedangkan using namespace std; agar dapat menggunakan cout. Fungsi tukarPointer(int *x, int *y, int *z) digunakan untuk menukar nilai melalui pointer dengan alamat dari ketiga variabel. Fungsi tukarReference(int &x, int &y, int &z) digunakan untuk menukar nilai melalui reference. Pada int main(), variabel a, b, dan c diberi nilai awal 4, 6, dan 8. tukarPointer(&a, &b, &c) digunakan untuk menukar nilai menjadi 6, 8, dan 4. Selanjutnya, tukarReference(a, b, c) digunakan untuk menukar kembali nilai menjadi 8, 4, dan 6. cout digunakan untuk menampilkan nilai sebelum ditukar, setelah menggunakan Call by Pointer, dan setelah menggunakan Call by Reference.
 
-### 3. Diketahui sebuah array 1 dimensi sebagai berikut : arrA = {48, 2, 7 , 21, 5, 20, 77, 9, 10, 1} Buatlah program yang dapat mencari nilai minimum, maksimum, dan rata – rata dari array tersebut! 
-Kerjakan soal dengan ketentuan : 
-- Untuk mencari nilai minimum dan maksimum, harus dibuat menjadi sebuah function.
-- Untuk mencari rata-rata harus dibuat menjadi sebuah procedure. 
-- Buat output di fungsi utama (main) untuk menampilkan nilai rata-rata yang sudah didapatkan melalui procedure sebelumnya. (Gunakan metode pass by reference atau pass by pointer) 
-- Buat menu sederhana untuk menjalankan setiap procedure. 
-Dengan tampilan menu sebagai berikut:
---- Menu Program Array ---
-1. Tampilkan isi array
-2. cari nilai maksimum
-3. cari nilai minimum
-4. Hitung nilai rata - rata
+### 3. Diketahui sebuah array 1 dimensi sebagai berikut : arrA = {48, 2, 7 , 21, 5, 20, 77, 9, 10, 1}                                                                            Buatlah program yang dapat mencari nilai minimum, maksimum, dan rata – rata dari array tersebut! 
 
 ```C++
 #include <iostream>
