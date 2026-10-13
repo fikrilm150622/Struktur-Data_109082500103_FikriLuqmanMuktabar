@@ -13,7 +13,7 @@ int main() {
         {13, 14, 15},
         {16, 17, 18}
     };
-    int x = 50, y = 60;
+    int x = 20, y = 30;
     int *p1 = &x;
     int *p2 = &y;
     cout << "Array A:" << endl;
