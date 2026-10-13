@@ -310,20 +310,20 @@ void tukarPointer(int *p1, int *p2) {
 
 ### main.cpp
 ```C++
-##include <iostream>
+#include <iostream>
 #include "array.h"
 using namespace std;
 
 int main() {
     int A[3][3] = {
-        {2, 4, 6},
-        {8, 10, 12},
-        {14, 16, 18}
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
     };
     int B[3][3] = {
-        {1, 3, 5},
-        {7, 9, 11},
-        {13, 15, 17}
+        {10, 11, 12},
+        {13, 14, 15},
+        {16, 17, 18}
     };
     int x = 50, y = 60;
     int *p1 = &x;
