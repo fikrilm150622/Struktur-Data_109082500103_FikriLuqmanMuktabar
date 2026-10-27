@@ -690,7 +690,9 @@ int main() {
 
 ### Penjelasan Unguided 
 Singlylist.h digunakan untuk menyimpan deklarasi struktur data Singly Linked List yang memiliki field info untuk menyimpan nilai data dan next untuk menyimpan alamat elemen berikutnya. File ini juga berisi deklarasi struktur List dengan field First sebagai penunjuk elemen pertama, serta deklarasi fungsi dan prosedur untuk membuat list, mengalokasikan dan menghapus memori, menampilkan data, menambahkan elemen di awal list, mencari elemen, dan menghitung jumlah seluruh nilai.
+
 Kemudian, Singlylist.cpp digunakan untuk menuliskan implementasi fungsi dan prosedur yang telah dideklarasikan pada file Singlylist.h. createList digunakan untuk membuat list kosong, alokasi digunakan untuk membuat elemen baru dan menyimpan nilai ke dalamnya, dealokasi digunakan untuk menghapus elemen dari memori, printInfo digunakan untuk menampilkan seluruh data dalam list, sedangkan insertFirst digunakan untuk menambahkan elemen baru di bagian awal list. Selain itu, findElm digunakan untuk mencari elemen berdasarkan nilai yang ditentukan, dan totalInfo digunakan untuk menghitung jumlah seluruh nilai dalam list.
+
 Lalu, main.cpp digunakan untuk menjalankan program utama, membuat list kosong, mengalokasikan lima elemen dengan nilai 2, 0, 8, 12, dan 9, kemudian memasukkan setiap elemen ke bagian awal list menggunakan insertFirst. Setelah semua elemen dimasukkan, program menampilkan isi list menggunakan printInfo, mencari elemen bernilai 8 menggunakan findElm, dan menghitung jumlah seluruh nilai menggunakan totalInfo. Secara keseluruhan, program ini digunakan untuk mempelajari penerapan struktur data Singly Linked List, mulai dari membuat list, menambahkan elemen di awal list, mencari data, hingga menghitung jumlah seluruh nilai. Karena setiap elemen dimasukkan di bagian awal, hasil urutan data yang ditampilkan adalah 9 12 8 0 2, dengan jumlah seluruh nilai sebesar 31.
 
 ## Kesimpulan
