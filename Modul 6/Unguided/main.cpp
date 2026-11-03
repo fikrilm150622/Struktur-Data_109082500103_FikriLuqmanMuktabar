@@ -18,14 +18,43 @@ int main() {
 
     createList(L);
 
-    infotype data[3] = {
-        {"D001", "hitam", 90},
-        {"D003", "putih", 70},
-        {"D004", "kuning", 90}
-    };
-    for (int i = 0; i < 3; i++) {
-        insertLast(L, alokasi(data[i]));
+    for (int i = 1; i <= 4; i++) {
+        cout << "masukkan nomor polisi: ";
+        cin >> x.nopol;
+
+        cout << "masukkan warna kendaraan: ";
+        cin >> x.warna;
+
+        cout << "masukkan tahun kendaraan: ";
+        cin >> x.thnBuat;
+
+        if (findElm(L, x) == Nil) {
+            P = alokasi(x);
+            insertLast(L, P);
+        } else {
+            cout << "nomor polisi sudah terdaftar" << endl;
+        }
+
+        cout << endl;
     }
+
+    cout << "DATA LIST 1" << endl << endl;
+    printInfo(L);
+    cout << endl;
+
+    cout << "Masukkan Nomor Polisi yang dicari   : ";
+    cin >> x.nopol;
+    cout << endl;
+
+    P = findElm(L, x);
+    if (P != Nil) {
+        cout << "Nomor Polisi  : " << P->info.nopol << endl;
+        cout << "Warna         : " << P->info.warna << endl;
+        cout << "Tahun         : " << P->info.thnBuat << endl;
+    } else {
+        cout << "Data dengan nomor polisi " << x.nopol << " tidak ditemukan." << endl;
+    }
+    cout << endl;
 
     cout << "Masukkan Nomor Polisi yang akan dihapus   : ";
     cin >> x.nopol;
